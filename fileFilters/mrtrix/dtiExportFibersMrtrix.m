@@ -56,7 +56,7 @@ if ~isempty(fg.params)
             % add header info to output structure
             tck.(nvpair{1}) = nvpair{2};
 
-          end
+        end
     else
     
         % print warning if there is no mrtrix header information
